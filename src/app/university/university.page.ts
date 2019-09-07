@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NavController, NavParams} from '@ionic/angular';
 
 @Component({
   selector: 'app-university',
@@ -7,9 +6,10 @@ import { NavController, NavParams} from '@ionic/angular';
   styleUrls: ['./university.page.scss'],
 })
 export class UniversityPage implements OnInit {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) { }
+  
+  constructor() { }
 
   ngOnInit() {
   }
+
 }
